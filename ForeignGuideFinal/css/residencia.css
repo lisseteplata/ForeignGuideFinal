@@ -1,0 +1,16 @@
+.registro-residencia{
+    width: 80%;
+    margin: auto;
+    color: black;
+}
+.registro-residencia h2, h3{
+   text-align: center;
+}
+
+
+
+
+.user-type-btn{
+    margin-left: 25px;    
+    margin-right: 3px;
+}

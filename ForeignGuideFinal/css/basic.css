@@ -1,0 +1,450 @@
+.box-for-95{
+    display: flex;
+    padding: 0 !important;
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    background: #fff;
+    color: #000;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.padding-0{
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(45deg, rgba(16, 28, 61, 0.5), rgba(30, 82, 131,0.5), rgba(16, 28, 61, 0.5));    
+    /* background-image: url('../assets/images/action-figures-games.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+/* ===============================================  HEADER MENU =============================================== */
+.nav-solid{
+    background: rgb(8, 33, 63) /*#446aa1*/;
+    position: relative;
+}
+header{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+}
+header nav{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+header nav .logoBox{
+    padding: 5px;
+    margin-right: 150px;
+}
+header nav .logoBox .SDK-logo-header{
+    width: 70px;
+    display: inline-block;
+}
+.logo-header{
+    height: 40px;
+    display: inline-block;
+} 
+
+}
+header nav .col{
+    text-align: center;
+    padding: 3px 0;
+    margin: 0 5px;
+}
+header nav .col:hover{
+    border-top: solid 2px #ffffff;
+    border-bottom: solid 2px #ffffff;
+}
+header nav .col .nav-item{
+    color: #fff;
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+header nav .col .nav-item:hover{
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+
+/* ===============================================  ABOUT MENU BOX =============================================== */
+
+.about-menu{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    margin: 0;
+    z-index: 5;
+}
+.btn-about-menu{
+    display: block;
+    width: 25%;
+    background: transparent;
+    padding: 5px 0; 
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 3;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.btn-about-menu:hover{
+    text-decoration: none;
+    color: #000;
+    background: linear-gradient(45deg, rgba(16, 28, 61, 0.5), rgba(30, 82, 131,0.5), rgba(16, 28, 61, 0.5));    
+}
+.menu-active{
+    display: block;
+    width: 25%;
+    background: rgba(16, 28, 61, 1);    
+    padding: 5px 0; 
+    text-decoration: none;
+    color: #fff !important;
+}
+.menu-active:hover{
+    background: linear-gradient(45deg, rgba(16, 28, 61, 1), rgb(30, 82, 131), rgba(16, 28, 61, 1));    
+    color: #fff !important;
+}
+.about-text{
+    padding: 15px 20px;
+    text-align: justify;
+    min-height: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffff;
+    display: inline-block;
+    background: rgba(16, 28, 61, 0.9);    
+}
+.about-text p{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.about-text h2{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.text-disable{
+    display: none;
+}
+
+/* ===============================================  FORM CONTACT =============================================== */
+
+.content-form{
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    height: 88vh;
+    background: url('../assets/images/contact-form-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 8%;
+}
+.content-box-contact{
+    background: linear-gradient(45deg, rgba(32, 34, 71, 0.8), rgba(196, 28, 86, 0.8), rgba(188, 62, 193, 0.8));
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.form{
+    width: 75%;
+    height: 100%;
+    padding: 5px 30px;
+    float: left;
+}
+.form h2,h3,h4{
+    text-align: center;
+    font-size: 15px;
+}
+.form h2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.form h3, h4{
+    font-size: 16px;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-bottom: 20px;
+}
+
+.form .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-messages{
+    overflow: hidden;
+}
+.input-messages input, textarea{
+    border-radius: 5px;
+    border: none;
+    padding: 3px 5px;
+    margin: 5px 0;
+}
+#inputName, #inputEmail{
+    width: 48%;
+}
+#inputEmail{
+    float: right;
+}
+#inputSubject{
+    width: 100%;
+}
+#inputMessage{
+    width: 100%;
+}
+.cardInfo{
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.322), rgba(72, 48, 78, 0.295));
+    display: block;
+    height: 100% !important;
+    width: 25%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardInfo h2{   
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.cardInfo h3 i{   
+    font-size: 30px;
+    font-weight: bold;
+}
+.cardInfo h3{   
+    font-size: 17px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* ===============================================  FOOTER =============================================== */
+
+footer{
+    background-image: url('../assets/images/back-footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: 130px;
+    position: relative;
+    overflow: hidden;
+}
+.footer-back{
+    width: 100%;
+    height: 100% !important;
+    padding: 20px !important;
+    background-color: rgba(53, 22, 43, 0.3);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dark-theme{
+    background: rgba(16, 28, 61, 1);
+    position: relative;
+}
+.SDK-Logo{
+    min-width: 80px;
+    width: 15%;
+    display: inline-block;
+}
+.social-footer{
+    margin-top: 10px 0;
+}
+.txt-logo{
+    display: inline-block;
+    margin-left: 10px;
+    /* font-family: 'Turret Road', cursive; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+.txt-logo-footer{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: 'Turret Road', cursive;
+    /* font-family: 'Josefin Sans', sans-serif; */
+}
+.content-social-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.flex-align-no-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-footer h2{
+    text-align: center;
+    font-size: 23px;
+}
+.social-footer .social-box{
+    width: 50px;
+    height: 50px;
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-footer .social-box:hover{
+    text-decoration: none;
+    transition: 0.3s;
+    transform: rotate(360deg);
+}
+.social-footer .social-box i{
+    color: #fff;
+    font-size: 35px;
+}
+.social-footer h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+.copyright{
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+
+.copyright-text p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* ===============================================  SLIDER HOME =============================================== */
+
+.carousel-caption{
+    bottom: 30%;
+    border-radius: 10px;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0));  
+}
+.carousel-caption h5{
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Pacifico', cursive;  
+    font-size: 25pt;
+}
+
+/* ===============================================  BUTTONS =============================================== */
+
+.btn-white-empty{
+    background: transparent !important;
+    border-radius: 50px;
+    border: solid 1px whitesmoke;
+    transition: 0.3s;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.btn-white-empty:hover{
+    background: #fff !important;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-purple{
+    background: linear-gradient(90deg, rgb(9, 30, 56), rgb(11, 56, 112), rgb(11, 86, 177));
+    border-radius: 50px;
+    transition: 0.8s;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+}
+.btn-purple:hover{
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(90deg, rgb(11, 86, 177),rgb(11, 56, 112), rgb(9, 30, 56));
+    transition: 0.8s;
+}
+
+/* ===============================================  LOGIN =============================================== */
+
+.login-background-gradient{
+    background: linear-gradient(67deg, rgb(8, 33, 63), rgba(68, 106, 161, 1));
+}
+.content-form-session{
+    margin-top: 10vh !important;
+    margin-bottom: 23vh !important;
+    width: 50%;
+    min-height: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.center-vertical{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-form-session .form-image{
+    min-height: 150px;
+    height: 35%;
+    background-image: url('../assets/images/back-form.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content-form-session .form-image-register{
+    min-height: 150px;
+    height: 35%;
+    background-image: url('../assets/images/back-form.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content-form-session .form-image h2{
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Pacifico', cursive; 
+    font-size: 35pt;
+}
+.dir-right{
+    width: 47% !important;
+    float: right;
+}
+.dir-left{
+    width: 47% !important;
+    float: left;
+}
+.input-register{
+    width: 99% !important;
+}
+.content-form-session .form-body-container{
+    margin-top: 10px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: #000;
+}
+.type-user-box{
+    margin: auto;
+    text-align: center;
+    color: #000;
+}
+.form-login{
+    width: 75%;
+    margin: 5px;
+    border-radius: 15px;
+    border: solid 1px #000;
+    border-color: rgb(11, 56, 112);
+    padding: 5px 10px;
+    text-align: center;
+}
+.inputs-coontainer{
+    width: 80%;
+    margin: auto;
+}
+
+.disable{
+    display: none;
+}
